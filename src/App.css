@@ -42,3 +42,25 @@ canvas {
   font-size: 1.3rem;
   line-height: 1.6;
 }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.overlay button {
+  background: linear-gradient(135deg, #ff4d6d, #ff758f);
+  color: white;
+  font-size: 1.5rem;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  box-shadow: 0 0 30px rgba(255, 77, 109, 0.8);
+}
