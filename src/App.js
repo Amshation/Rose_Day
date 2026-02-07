@@ -69,13 +69,15 @@ export default function App() {
           animate={{ scale: [1, 1.05, 1] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          🌹 Happy Rose Day 🌹
+          🌹 Happy Rose Day Jotu🌹
         </motion.h1>
 
         <p>
-          On this Rose Day, I don’t send you just a flower —  
-          I send you my heart, my warmth,  
-          and every silent promise of forever ❤️
+          Hi Jotu,
+It’s our second Rose Day together, and it still feels just as special as the first—maybe even more. 🌹
+Every rose reminds me of you: your warmth, your smile, and the way you quietly make my world brighter.
+Thank you for choosing me again, for growing with me, and for turning ordinary days into something beautiful.
+Here’s to us—still blooming, still choosing each other, today and always. ❤️
         </p>
       </motion.div>
     </div>
